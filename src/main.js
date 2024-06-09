@@ -148,7 +148,7 @@ class Group {
   attRate() {
     let ratedArrAtt = this.listOfStudents.sort((a, b) => (+b.avrAttendance) - (+a.avrAttendance));
     for (let i = 0; i < ratedArrAtt.length; i++) {
-      console.log("Рейтинг учеников по посещаемости " + ratedArrAtt[i].name + ' - ' + ratedArrAtt[i].avrAttendance);
+      console.log("Рейтинг учеников по посещаемости " + ratedArrAtt[i].name + ' - ' + ratedArrAtt[i].avrAttendance+ "%");
     }
 
   }
